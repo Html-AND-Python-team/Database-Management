@@ -1,6 +1,102 @@
 {
-  "programming_languages" : [
-  ],
-  "operative_systems" :[
-  ]
+    "programming_languages": [
+        {
+            "id": "python",
+            "name": "01",
+            "extensions": ".py .pyw",
+            "difficulty": "4"
+        },
+        {
+            "id": "C++",
+            "name": "02",
+            "extensions": ".cpp .c++ .cc .h",
+            "difficulty": "9"
+        },
+        {
+            "id": "javascript",
+            "name": "03",
+            "extensions": ".js .jsx .ts .tsx",
+            "difficulty": "7"
+        },
+        {
+            "id": "perl",
+            "name": "04",
+            "extensions": ".pl .pm .cgi",
+            "difficulty": "5"
+        },
+        {
+            "id": "b",
+            "name": "05",
+            "extensions": ".b .txt (no especificadas)",
+            "difficulty": "9"
+        },
+        {
+            "id": "html",
+            "name": "06",
+            "extensions": ".html",
+            "difficulty": "3"
+        },
+        {
+            "id": "php",
+            "name": "07",
+            "extensions": ".php",
+            "difficulty": "7"
+        },
+        {
+            "id": "kotlin",
+            "name": "08",
+            "extensions": ".kt .kts .ktx .ktolin_builtins",
+            "difficulty": "6"
+        }
+    ],
+    "operative_systems": [
+        {
+            "base": "Windows 11",
+            "name": "windows",
+            "package-extensions": ".exe",
+            "family": "windows"
+        },
+        {
+            "base": "debian ",
+            "name": "linux",
+            "package-extensions": ".deb",
+            "family": "debian"
+        },
+        {
+            "base": "ubuntu",
+            "name": "linux",
+            "package-extensions": ".deb",
+            "family": "debian"
+        },
+        {
+            "base": "linux mint",
+            "name": "linux",
+            "package-extensions": ".deb",
+            "family": "debian"
+        },
+        {
+            "base": "macos Tahoe",
+            "name": "macOS",
+            "package-extensions": ".app",
+            "family": "macOS"
+        },
+        {
+            "base": "fedora",
+            "name": "linux",
+            "package-extensions": ".rpm",
+            "family": "fedora"
+        },
+        {
+            "base": "redhat",
+            "name": "linux",
+            "package-extensions": ".rpm",
+            "family": "fedora"
+        },
+        {
+            "base": "windows xp",
+            "name": "windows",
+            "package-extensions": ".exe",
+            "family": "windows"
+        }
+    ]
 }
